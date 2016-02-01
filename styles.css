@@ -1,0 +1,117 @@
+body{
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url(https://d13yacurqjgara.cloudfront.net/users/375867/screenshots/1480136/game-assets-game-background-sidescroller.png)  no-repeat top center fixed;
+	background-size: cover;
+}
+
+#intro-page-wrapper{
+    text-align: center;
+    overflow: scroll;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(2,2,5,0.87);
+    top: 0px;
+    left: 0px;
+    z-index: 1000000000;
+    color: #f2f2f2;
+    font-family: arial;
+}
+
+#intro-page-wrapper h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 3%
+}
+
+#intro-page-wrapper p{
+    line-height: 125%;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+#intro-page-wrapper button{
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 225px;
+    padding: 15px;
+    color: white;
+    background-color: #757584;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 30px;
+    border: 0px;
+    letter-spacing: 3px;
+}
+
+#intro-page-wrapper button:hover{
+    cursor: pointer;
+    background-color: #a3a3ad;
+}
+.title{
+	font-size:95px;
+	text-align: center;
+	font-family: arial;
+}
+
+.box-wrapper {
+	padding: 30px;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 640px;
+	min-width: 320px;
+	width: 33%;
+	height:450px;
+}
+
+.box {
+	float: left;
+	width: 31%;
+	background-color: #989898;
+	margin:1%;
+	padding: 3% 0;
+	color: white;
+	font-size: 96px;
+	font-family: arial;
+
+}
+
+.box.empty{
+	color: transparent;
+}
+
+#message{
+	text-align: center;
+	font-size: 40px;
+	font-family: arial;
+}
+
+
+#new-game{
+	font-size:22px;
+	margin-left: 46%;
+	margin-top: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tic-tac-toe</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+
+	
+</head>
+<body>
+	<div id="intro-page-wrapper">
+		<div id="intro-page">
+			<h1>Oliver's Tic Tac Toe Game</h1>
+			<h2>Technologies: HTML/CSS/Javascript/jQuery</h2>
+			<p>This project simulates a tic tac toe game with two players.  For future improvement, I will integrate the minimax algorithm within the game.  The algorithm will serve as the computer AI.</p>
+				<button id="intro-button" onclick="viewProject()">View Project</button>
+		</div>
+	</div>
+	<div class="title">Tic Tac Toe</div>
+	<div class="box-wrapper">
+		<div class ="box-total">
+			<div class = "box-row">
+				<div id = "box1" class="box empty" onclick="boxClicked(1)">-</div>
+				<div id = "box2" class="box empty" onclick="boxClicked(2)">-</div>
+				<div id = "box3" class="box empty" onclick="boxClicked(3)">-</div>
+			</div>
+			<div class = "box-row">
+				<div id = "box4" class="box empty" onclick="boxClicked(4)">-</div>
+				<div id = "box5" class="box empty" onclick="boxClicked(5)">-</div>
+				<div id = "box6" class="box empty" onclick="boxClicked(6)">-</div>
+			</div>
+			<div class = "box-row">
+				<div id = "box7" class="box empty" onclick="boxClicked(7)">-</div>
+				<div id = "box8" class="box empty" onclick="boxClicked(8)">-</div>
+				<div id = "box9" class="box empty" onclick="boxClicked(9)">-</div>
+			</div>	
+		</div>
+	</div>
+
+	<div id="message"></div>
+	<button id="new-game" onclick="restart()">New Game</button>
+
+	
+
+</body>
+	
+</html>
